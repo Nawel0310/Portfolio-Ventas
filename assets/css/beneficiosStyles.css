@@ -1,0 +1,35 @@
+#col-beneficios {
+  height: initial;
+  width: 50rem;
+}
+
+#titulo-beneficios {
+  color: #ebebeb;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.subtitulo-beneficios {
+  color: #ebebeb;
+  margin: 0px;
+}
+
+.img-beneficios {
+  margin-right: 16px;
+  height: 2rem;
+}
+
+.div-beneficios {
+  margin-bottom: 1rem;
+}
+
+#col-carrusel-beneficios {
+  background: linear-gradient(rgba(255,255,255,0) 65%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 25%), url("../../assets/img/PoligonoBlanco.svg?h=0289b5d506cab8c91620c88fad69a495") center / cover no-repeat;
+}
+
+.titulo-item-beneficios {
+  font-weight: bold;
+}
+

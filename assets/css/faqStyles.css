@@ -1,0 +1,49 @@
+#faq-section {
+  height: initial;
+  max-height: initial;
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoBlanco.svg?h=0289b5d506cab8c91620c88fad69a495") center / cover no-repeat;
+}
+
+#titulo-preguntas-frecuentes {
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  font-weight: bold;
+  height: initial;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.col-faq {
+}
+
+#desc-sub-faq {
+  text-align: center;
+  font-size: 20px;
+}
+
+#accordion-faq {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 50rem;
+}
+
+.item-faq-heading:not(.collapsed) {
+  background-color: #00337a!important;
+  color: white !important;
+}
+
+.item-faq-heading:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+.fondo-blanco-faq {
+  background: #EEEEEE;
+}
+
+#row-beneficios {
+  background: #00337a;
+}
+

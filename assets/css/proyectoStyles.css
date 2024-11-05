@@ -1,0 +1,38 @@
+#proyectos-section {
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoBlanco.svg?h=0289b5d506cab8c91620c88fad69a495") center / cover no-repeat;
+  min-height: 25rem;
+}
+
+.img-proyectos {
+  width: 20rem;
+  box-shadow: 8px 8px #00337a;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-proyectos:hover {
+  width: 25rem;
+  box-shadow: 8px 8px #0ac2ff;
+}
+
+#titulo-proyectos {
+  font-weight: bold;
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+#desc-proyectos {
+  text-align: center;
+  font-size: 20px;
+}
+
+.col-proyectos {
+  margin-bottom: 2rem;
+}
+
+#beneficios-section {
+}
+

@@ -1,0 +1,29 @@
+#oferta-section {
+  height: initial;
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoCeleste2.svg?h=44878b7c18679a8df631b872e6cd2885") center / cover no-repeat;
+  max-height: inherit;
+}
+
+#titulo-oferta {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.subtitulo-oferta {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.desc-card {
+  font-size: 18px;
+}
+

@@ -1,0 +1,38 @@
+.div-form-contacto {
+  margin-bottom: 1rem;
+}
+
+#contacto-titulo {
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contacto-section {
+  height: initial;
+  max-height: initial;
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoCeleste2.svg?h=44878b7c18679a8df631b872e6cd2885") center / cover no-repeat;
+}
+
+.item-icon {
+  background: linear-gradient(45deg, #0ac2ff 0%, #bcf2f6)!important;
+  color: var(--bs-emphasis-color)!important;
+}
+
+.titulo-icon {
+  font-weight: bold;
+}
+
+.desc-contacto {
+  color: var(--bs-emphasis-color);
+  text-decoration: none;
+}
+
+.desc-contacto:hover {
+  color: #0ac2ff;
+  font-weight: bold;
+}
+

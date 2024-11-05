@@ -1,0 +1,42 @@
+#titulo-services {
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitulo-servicios {
+  text-align: center;
+  font-size: 18px;
+}
+
+#card-plan-basico {
+  background: #F2F2F4;
+  border-radius: 8px;
+}
+
+#btn-plan-basico {
+}
+
+.item-lista-service {
+  color: #bcf2f6!important;
+  background: #0ac2ff!important;
+}
+
+#card-plan-pro {
+  border-radius: 8px;
+  background: #00337a;
+}
+
+.item-lista-service-pro {
+  color: #0ac2ff!important;
+  background: #bcf2f6!important;
+}
+
+#btn-plan-pro:hover {
+  color: #00337a!important;
+  background: rgb(235,235,235);
+}
+

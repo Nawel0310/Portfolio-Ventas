@@ -1,0 +1,113 @@
+#about-me-section {
+  background: linear-gradient(rgba(0,0,0,0) 0%, var(--bs-gray-300)), linear-gradient(var(--bs-gray-300) 0%, rgba(0,0,0,0) 100%), url("../../assets/img/PoligonoBlanco.svg?h=0289b5d506cab8c91620c88fad69a495") center / cover no-repeat;
+}
+
+@media (max-width: 767px) {
+  #about-me-section {
+    background: linear-gradient(rgba(0,0,0,0) 75%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300) 55%, rgba(0,0,0,0) 100%), url("../../assets/img/PoligonoCeleste2.svg?h=44878b7c18679a8df631b872e6cd2885") center / cover no-repeat;
+  }
+}
+
+@keyframes moveBlobs {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: 80% 20%, 20% 80%;
+  }
+  100% {
+    background-position: center;
+  }
+}
+
+#img-about-me {
+  position: relative;
+  background: url("../../assets/img/blob2-about-me.svg?h=2d2e673128e306f96428adb7b8798bda") center / contain no-repeat, url("../../assets/img/blob3-about-me.svg?h=af56a8b5699e3245cc37b41f1a7a4394") center / contain no-repeat;
+  animation: moveBlobs 2s ease-in-out infinite;
+}
+
+#titulo-about-me {
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+#titulo-btn-about-me {
+}
+
+.subtitulo-about-me {
+  font-size: 18px;
+  width: 80%;
+}
+
+.img-div-about-me {
+  width: 10%;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.parrafo-about-me {
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+  #btn-navbar {
+    margin-top: 0.5rem;
+    margin-left: 0px;
+  }
+}
+
+#titulo-explicacion {
+  font-weight: bold;
+  background: linear-gradient(45deg, #00337a, #0ac2ff 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.img-card-about-me {
+  width: 20%;
+}
+
+.titulo-card-about-me {
+  width: 80%;
+  font-weight: bold;
+  text-align: left;
+  color: #00337a;
+}
+
+#container-cards {
+  padding-top: 3rem;
+}
+
+.lottie-card-about-me {
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-oferta {
+  border-radius: 8px;
+  background: #F2f2f2;
+  margin-bottom: 2rem;
+  border-style: solid;
+}
+
+#metodo-section {
+  height: initial;
+  max-height: initial;
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoBlanco.svg?h=0289b5d506cab8c91620c88fad69a495") center / cover no-repeat;
+}
+
+#servicios-section {
+  height: initial;
+  max-height: initial;
+  background: linear-gradient(rgba(255,255,255,0) 0%, var(--bs-gray-300) 100%), linear-gradient(var(--bs-gray-300), rgba(255,255,255,0) 100%), url("../../assets/img/PoligonoCeleste2.svg?h=44878b7c18679a8df631b872e6cd2885") center / cover no-repeat;
+}
+
