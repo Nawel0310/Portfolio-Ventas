@@ -1,3 +1,10 @@
+// Importar los estilos de AOS
+import 'aos/dist/aos.css';
+
+// Importar la biblioteca AOS
+import AOS from 'aos';
+
+
 //Script para cerrar la navbar:
 document.addEventListener("DOMContentLoaded", function() {
     const navbarCollapse = document.getElementById("navcol-2");
@@ -37,4 +44,13 @@ document.getElementById('form-contacto')
       btn.disabled = false;
       alert(JSON.stringify(e));
     });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Inicializar AOS
+  AOS.init({
+    duration: 1200,  // Duración de la animación en milisegundos
+    once: true,      // Ejecutar solo una vez
+    easing: 'ease-in-out', // Tipo de easing (opcional)
+  });
 });
