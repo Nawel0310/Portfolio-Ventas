@@ -48,9 +48,5 @@ document.getElementById('form-contacto')
 
 document.addEventListener('DOMContentLoaded', function () {
   // Inicializar AOS
-  AOS.init({
-    duration: 1200,  // Duración de la animación en milisegundos
-    once: true,      // Ejecutar solo una vez
-    easing: 'ease-in-out', // Tipo de easing (opcional)
-  });
+  AOS.init({});
 });
