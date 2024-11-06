@@ -3,8 +3,6 @@ import 'aos/dist/aos.css';
 // Importar la biblioteca AOS
 import AOS from 'aos';
 
-import '@lottiefiles/lottie-player';
-
 
 //Script para cerrar la navbar:
 document.addEventListener("DOMContentLoaded", function() {
