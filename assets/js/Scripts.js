@@ -1,8 +1,11 @@
 // Importar los estilos de AOS
 import 'aos/dist/aos.css';
-
+//Importar Lottie player
+import '@lottiefiles/lottie-player';
 // Importar la biblioteca AOS
 import AOS from 'aos';
+
+
 
 
 //Script para cerrar la navbar:
