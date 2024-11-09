@@ -38,6 +38,7 @@ document.getElementById('form-contacto')
       btn.value = 'Enviar';
       btn.disabled = false;
       alert('¡Su consulta ha sido enviada!');
+      this.reset();
     }, (e) => {
       btn.value = 'Enviar';
       btn.disabled = false;
